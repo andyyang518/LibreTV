@@ -111,9 +111,9 @@ const API_SITES = {
         name: 'iKun资源'
     },
    
-   ckzy: {
-        api: 'https://www.ckzy1.com',
-         name: 'CK资源',
+   360zy: {
+        api: 'https://360zy.com/api.php/seaxml/vod/at/xml',
+         name: '360资源',
          adult: true
    },
      jkun: {
