@@ -53,7 +53,7 @@ const API_SITES = {
         name: '黑木耳',
         detail: 'https://heimuer.tv', 
     },
-    zy360: {
+    360zy: {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
     },
