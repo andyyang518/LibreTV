@@ -39,17 +39,16 @@ const API_SITES = {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
     },
-     xiaomaomi: {
-         api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
-         name: '小猫咪资源',
+     yzzy: {
+         api: 'https://api.yzzy-api.com/inc/ldg_api.php',
+         name: '优质资源',
      },
-    ffzy: {
-        api: 'http://ffzy5.tv/api.php/provide/vod',
-        name: '非凡影视',
-        detail: 'http://ffzy5.tv', 
+    hhzy: {
+        api: 'https://hhzyapi.com/api.php/provide/vod/from/hhyun/at/json',
+        name: '豪华资源',
     },
     heimuer: {
-        api: 'https://json.heimuer.xyz/api.php/provide/vod',
+        api: 'https://json02.heimuer.xyz/api.php/provide/vod/?ac=list',
         name: '黑木耳',
         detail: 'https://heimuer.tv', 
     },
@@ -57,17 +56,17 @@ const API_SITES = {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
     },
-    iqiyi: {
-        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
-        name: 'iqiyi资源',
+    huya: {
+        api: 'https://www.huyaapi.com/api.php/provide/vod/from/hyyun/at/json',
+        name: '虎牙资源',
     },
     wolong: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源',
     }, 
-    hwba: {
-        api: 'https://cjhwba.com/api.php/provide/vod',
-        name: '华为吧资源',
+    iqiyi: {
+        api: 'https://iqiyizyapi.com/api.php/provide/vod',
+        name: '爱奇艺资源',
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
@@ -82,16 +81,12 @@ const API_SITES = {
         api: 'https://mozhuazy.com/api.php/provide/vod',
         name: '魔爪资源',
     },
-    mdzy: {
-        api: 'https://www.mdzyapi.com/api.php/provide/vod',
-        name: '魔都资源',
-    },
     zuid: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源'
     },
     yinghua: {
-        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
+        api: 'https://m3u8.apiyhzy.com/api.php/seacms/vod/at/xml/?ac=list',
         name: '樱花资源'
     },
     baidu: {
@@ -129,7 +124,7 @@ const API_SITES = {
          adult: true
      },
      fh: {
-         api: 'http://fhapi9.com/api.php/Feifei/vod/at/xml/',
+         api: 'http://fhapi9.com/api.php/Feifei/vod/from/fhm3u8/at/xml/',
          name: '番号资源',
          adult: true
      },
@@ -164,18 +159,20 @@ const API_SITES = {
          name: '玉兔资源',
          adult: true
      },
-
-    // 下面是资源失效率高的API源，不建议使用
      huanggua: {
          api: 'https://www.avre06.com/api.php/provide/vod/?ac=list',
          name: '黄瓜资源'
      },
+    danaizi: {
+        api: ' https://apidanaizi.com/api.php/provide/vod/?ac=list',
+        name: '大奶子资源',
+    },
      fczy: {
-         api: 'https://api.fczy888.me/api.php/provide/vod/at/json',
+         api: 'https://api.fczy888.me/api.php/provide/vod/at/xml',
          name: '蜂巢资源'
      },
      ukzy: {
-         api: 'https://api.ukuapi88.com/api.php/provide/vod/from/ukyun/at/xmlsea/',
+         api: 'https://api.ukuapi88.com/api.php/provide/vod/at/xmlsea',
          name: 'U酷资源'
      },
 };
