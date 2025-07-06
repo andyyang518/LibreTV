@@ -39,9 +39,9 @@ const API_SITES = {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
     },
-     yzzy: {
-         api: 'https://api.yzzy-api.com/inc/ldg_api_all.php',
-         name: '优质资源',
+     jmzy: {
+         api: 'https://api.jmzy.com/api.php/provide/vod/',
+         name: '金马资源',
      },
     hhzy: {
         api: 'https://hhzyapi.com/api.php/provide/vod/from/hhyun/at/json',
@@ -64,9 +64,9 @@ const API_SITES = {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源',
     }, 
-    iqiyi: {
-        api: 'https://www.iqiyizyapi.com/api.php/provide/vod/?ac=list',
-        name: '爱奇艺资源',
+    kbzy: {
+        api: 'https://gayapi.com/api.php/provide/vod/at/json',
+        name: '快播资源',
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
@@ -85,9 +85,9 @@ const API_SITES = {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源'
     },
-    yinghua: {
-        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list',
-        name: '樱花资源'
+    kuaiche: {
+        api: 'https://caiji.kuaichezy.org/api.php/provide/vod/?ac=list',
+        name: '快车资源'
     },
     baidu: {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
@@ -123,9 +123,9 @@ const API_SITES = {
          name: 'CK资源',
          adult: true
      },
-     fh: {
-         api: 'http://fhapiby.com/api.php/Seacms/vod/at/xml',
-         name: '番号资源',
+     jingpinx: {
+         api: 'https://www.jingpinx.com/api.php/provide/vod/?ac=list',
+         name: '精品x资源',
          adult: true
      },
      bwzy: {
@@ -164,7 +164,7 @@ const API_SITES = {
          name: '黄瓜资源'
      },
     danaizi: {
-        api: 'https://apidanaizi.com/api.php/provide/vod/?ac=list',
+        api: 'https://apidanaizi.com/api.php/provide/vod/at/xml',
         name: '大奶子资源',
     },
      fczy: {
