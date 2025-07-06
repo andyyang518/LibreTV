@@ -86,7 +86,7 @@ const API_SITES = {
         name: '最大资源'
     },
     maotai: {
-        api: 'https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/',
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn/',
         name: '茅台资源'
     },
     baidu: {
@@ -164,7 +164,7 @@ const API_SITES = {
          name: '黄瓜资源'
      },
     lj: {
-        api: 'https://apilj.com/api.php/Seacms/vod/',
+        api: 'http://api.11bat.com/api.php/Seacms/vod/',
         name: '辣椒资源',
     },
      fczy: {
