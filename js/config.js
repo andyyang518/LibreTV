@@ -85,9 +85,9 @@ const API_SITES = {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源'
     },
-    kuaiche: {
-        api: 'https://caiji.kuaichezy.org/api.php/provide/vod/at/xml/',
-        name: '快车资源'
+    maotai: {
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/',
+        name: '茅台资源'
     },
     baidu: {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
@@ -164,16 +164,16 @@ const API_SITES = {
          name: '黄瓜资源'
      },
     lj: {
-        api: 'https://apilj.com/api.php/provide/vod/at/xml/',
+        api: 'https://apilj.com/api.php/Seacms/vod/',
         name: '辣椒资源',
     },
      fczy: {
          api: 'https://api.fczy888.me/api.php/provide/vod',
          name: '蜂巢资源'
      },
-     hongniu: {
-         api: 'https://www.hongniuzy2.com/api.php/provide/vod/at/xml/',
-         name: '红牛资源'
+     Naixx: {
+         api: 'https://Naixxzy.com/api.php/provide/vod/?ac=list',
+         name: '奶香香资源'
      },
 };
 
