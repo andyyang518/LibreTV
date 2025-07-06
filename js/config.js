@@ -159,7 +159,7 @@ const API_SITES = {
     huanggua: {
          api: 'https://www.avre06.com/api.php/provide/vod/?ac=list',
          name: '黄瓜资源'
-         adult: true
+         
      },
     putao: {
         api: 'https://caiji.putaozyw.net/inc/apijson_vod.php',
@@ -169,7 +169,7 @@ const API_SITES = {
      fczy: {
          api: 'https://api.fczy888.me/api.php/provide/vod',
          name: '蜂巢资源'
-         adult: true
+         
      },
     hhzy: {
         api: 'https://hhzyapi.com/api.php/provide/vod/from/hhyun/at/json',
@@ -179,7 +179,7 @@ const API_SITES = {
      Naixx: {
          api: 'https://Naixxzy.com/api.php/provide/vod/?ac=list',
          name: '奶香香资源'
-         adult: true
+         
      },
 };
 
