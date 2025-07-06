@@ -110,61 +110,77 @@ const API_SITES = {
     // 这些影片和背后的产业已经使数百万男女“下海”，出卖自己的身体，甚至以此为生计。
     // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
     // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
-    // ckzy: {
-    //     api: 'https://www.ckzy1.com',
-    //     name: 'CK资源',
-    //     adult: true
-    // },
-    // jkun: {
-    //     api: 'https://jkunzyapi.com',
-    //     name: 'jkun资源',
-    //     adult: true
-    // },
-    // bwzy: {
-    //     api: 'https://api.bwzym3u8.com',
-    //     name: '百万资源',
-    //     adult: true
-    // },
-    // souav: {
-    //     api: 'https://api.souavzy.vip',
-    //     name: 'souav资源',
-    //     adult: true
-    // },
-    // r155: {
-    //     api: 'https://155api.com',
-    //     name: '155资源',
-    //     adult: true
-    // },
-    // lsb: {
-    //     api: 'https://apilsbzy1.com',
-    //     name: 'lsb资源',
-    //     adult: true
-    // },
-    // huangcang: {
-    //     api: 'https://hsckzy.vip',
-    //     name: '黄色仓库',
-    //     adult: true,
-    //     detail: 'https://hsckzy.vip'
-    // },
-    // yutu: {
-    //     api: 'https://yutuzy10.com',
-    //     name: '玉兔资源',
-    //     adult: true
-    // },
-
-    // 下面是资源失效率高的API源，不建议使用
-    // subo: {
-    //     api: 'https://subocaiji.com/api.php/provide/vod',
-    //     name: '速播资源'
-    // },
-    // fczy: {
-    //     api: 'https://api.fczy888.me/api.php/provide/vod',
-    //     name: '蜂巢资源'
-    // },
-    // ukzy: {
-    //     api: 'https://api.ukuapi88.com/api.php/provide/vod',
-    //     name: 'U酷资源'
-    // },
+    ckzy: {
+         api: 'https://ckzy.me/api.php/provide/vod/?ac=list',
+         name: 'CK资源',
+         adult: true
+     },
+    jingpinx: {
+         api: 'https://www.jingpinx.com/api.php/provide/vod/?ac=list',
+         name: '精品x资源',
+         adult: true
+     },
+     bwzy: {
+     api: 'https://api.bwzyz.com/api.php/provide/vod/at/json',
+         name: '百万资源',
+         adult: true
+     },
+   souav: {
+         api: 'https://api.souavzy.vip/api.php/provide/vod/?ac=list',
+         name: 'souav资源',
+         adult: true
+     },
+     caoliu: {
+         api: 'https://www.caoliuzyw.com/api.php/provide/vod/at/json/',
+         name: '草榴资源',
+         adult: true
+     },
+    kbzy: {
+        api: 'https://gayapi.com/api.php/provide/vod/at/json',
+        name: '快播资源',
+         adult: true
+    },
+     lsb: {
+         api: 'https://apilsbzy1.com/api.php/provide/vod/?ac=list',
+         name: 'lsb资源',
+         adult: true
+     },
+    huangcang: {
+         api: 'https://hsckzy888.com/api.php/provide/vod/from/hsckyun/at/xmlsea',
+         name: '黄色仓库',
+         adult: true,
+         detail: 'https://hsckzy.vip'
+     },
+     yutu: {
+         api: 'https://apiyutu.com/api.php/provide/vod/?ac=list',
+         name: '玉兔资源',
+         adult: true
+     },
+    huanggua: {
+         api: 'https://www.avre06.com/api.php/provide/vod/?ac=list',
+         name: '黄瓜资源'
+         adult: true
+     },
+    putao: {
+        api: 'https://caiji.putaozyw.net/inc/apijson_vod.php',
+        name: '葡萄资源',
+         adult: true
+    },
+     fczy: {
+         api: 'https://api.fczy888.me/api.php/provide/vod',
+         name: '蜂巢资源'
+         adult: true
+     },
+    hhzy: {
+        api: 'https://hhzyapi.com/api.php/provide/vod/from/hhyun/at/json',
+        name: '豪华资源',
+         adult: true
+    },
+     Naixx: {
+         api: 'https://Naixxzy.com/api.php/provide/vod/?ac=list',
+         name: '奶香香资源'
+         adult: true
+     },
 };
 
 // 添加聚合搜索的配置选项
