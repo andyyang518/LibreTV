@@ -128,9 +128,9 @@ const API_SITES = {
          name: 'CK资源',
          adult: true
      },
-     360: {
-         api: 'https://360zy.com/api.php/provide/vod',
-         name: '360资源',
+     btt: {
+         api: 'http://bttcjz.com/inc/sapi.php',
+         name: '博天堂资源',
          adult: true
      },
      bwzy: {
@@ -143,9 +143,9 @@ const API_SITES = {
          name: 'souav资源',
          adult: true
      },
-     aosikazy: {
-         api: 'https://aosikazy.com/api.php/provide/vod/at/xml',
-         name: '奥斯卡资源',
+     caoliu: {
+         api: 'https://www.caoliuzyw.com/api.php/provide/vod/at/json/',
+         name: '草榴资源',
          adult: true
      },
      lsb: {
