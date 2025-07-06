@@ -115,11 +115,6 @@ const API_SITES = {
          name: 'CK资源',
          adult: true
      },
-    slapibf: {
-        api: 'https://slapibf.com/api.php/provide/vod/?ac=list',
-        name: '森林资源',
-        adult: true
-    },
      jingpinx: {
          api: 'https://www.jingpinx.com/api.php/provide/vod/?ac=list',
          name: '精品x资源',
