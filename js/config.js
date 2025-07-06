@@ -163,9 +163,9 @@ const API_SITES = {
          api: 'https://www.avre06.com/api.php/provide/vod/?ac=list',
          name: '黄瓜资源'
      },
-    lj: {
-        api: 'http://api.11bat.com/api.php/Seacms/vod/',
-        name: '辣椒资源',
+    putao: {
+        api: 'https://caiji.putaozyw.net/inc/apijson_vod.php',
+        name: '葡萄资源',
     },
      fczy: {
          api: 'https://api.fczy888.me/api.php/provide/vod',
