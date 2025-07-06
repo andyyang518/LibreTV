@@ -43,10 +43,6 @@ const API_SITES = {
          api: 'https://api.jmzy.com/api.php/provide/vod/',
          name: '金马资源',
      },
-    hhzy: {
-        api: 'https://hhzyapi.com/api.php/provide/vod/from/hhyun/at/json',
-        name: '豪华资源',
-    },
     heimuer: {
         api: 'https://json02.heimuer.xyz/api.php/provide/vod/?ac=list',
         name: '黑木耳',
@@ -64,10 +60,6 @@ const API_SITES = {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源',
     }, 
-    kbzy: {
-        api: 'https://gayapi.com/api.php/provide/vod/at/json',
-        name: '快播资源',
-    },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速资源',
@@ -105,11 +97,6 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    },
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
     // 这些黄色影片是资本主义父权制压迫的最恶毒体现，它将暴力和屈辱商品化，践踏人的尊严，对受害者造成无法弥愈的伤害，并毒害社会关系。
@@ -123,6 +110,11 @@ const API_SITES = {
          name: 'CK资源',
          adult: true
      },
+    slapibf: {
+        api: 'https://slapibf.com/api.php/provide/vod/?ac=list',
+        name: '森林资源',
+        adult: true
+    },
      jingpinx: {
          api: 'https://www.jingpinx.com/api.php/provide/vod/?ac=list',
          name: '精品x资源',
@@ -143,6 +135,11 @@ const API_SITES = {
          name: '草榴资源',
          adult: true
      },
+    kbzy: {
+        api: 'https://gayapi.com/api.php/provide/vod/at/json',
+        name: '快播资源',
+         adult: true
+    },
      lsb: {
          api: 'https://apilsbzy1.com/api.php/provide/vod/?ac=list',
          name: 'lsb资源',
@@ -162,18 +159,27 @@ const API_SITES = {
      huanggua: {
          api: 'https://www.avre06.com/api.php/provide/vod/?ac=list',
          name: '黄瓜资源'
+         adult: true
      },
     putao: {
         api: 'https://caiji.putaozyw.net/inc/apijson_vod.php',
         name: '葡萄资源',
+         adult: true
     },
      fczy: {
          api: 'https://api.fczy888.me/api.php/provide/vod',
          name: '蜂巢资源'
+         adult: true
      },
+    hhzy: {
+        api: 'https://hhzyapi.com/api.php/provide/vod/from/hhyun/at/json',
+        name: '豪华资源',
+         adult: true
+    },
      Naixx: {
          api: 'https://Naixxzy.com/api.php/provide/vod/?ac=list',
          name: '奶香香资源'
+         adult: true
      },
 };
 
